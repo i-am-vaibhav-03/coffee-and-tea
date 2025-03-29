@@ -1,0 +1,653 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow-x: hidden; 
+     
+}
+.logo
+{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    position: relative;
+    bottom: 10%;
+    color: rgb(0, 0, 0);
+}
+nav{
+    width: 100%;
+    height:52px;
+    background-color: black;
+    opacity: 0.5;
+    padding-bottom: 2px;
+}
+
+
+ul li 
+{
+    text-decoration: none;
+    text-align: end;
+    list-style: none;
+    display: inline;
+    position: relative;
+    left: 65%; line-height: 50px;
+    margin-left: 75px;
+    
+
+}
+ul li a
+{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    position:fixed;
+    
+}
+ul li a:hover
+{
+    background-color: rgb(43, 43, 43);
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ /*  */
+ div
+ {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    position: relative;
+    
+}
+.home-text h1
+{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    bottom: 50px; right: 100px;
+}
+.home-text h1 span
+{
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+}
+home-text p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    text-align:start;
+    position: relative;
+    left:400px; 
+}
+button
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(134, 49, 0);
+    color: white;
+    margin-top: px;
+    position: relative;
+    right: 220px; bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid rgb(251, 228, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    transition-property: all;
+    transition-duration: 1.5s;
+
+}
+.btnmenu
+{
+   position: absolute;
+   left: 520px;
+   background-color: transparent;
+   color: black;
+   font-weight: bold;
+   border:1px solid #000; 
+}
+.btnmenu:hover
+{
+    background-color: rgb(134, 49, 0);
+    color: white;
+}
+
+.home-text
+{
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+button:hover
+{
+    background-color: transparent;
+    transform: scale(45deg);
+    color: black;
+    border: 1px solid black;
+}
+picture
+{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.home-text pre
+{
+    text-align: start;
+    font-size: 12px;
+    position: relative;
+    left: 370px; bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Coffee collection */
+section
+{
+    position: relative;
+    top: 23em;
+    height: 2200px;
+    width: 100%;
+    background-color: D5C7A3;
+    display: inline-block;
+}
+
+.product
+{   
+    display: flex;
+    position: absolute;
+    top: 5px;  
+}
+
+
+.head
+{
+    position: relative;
+    top: 30px; right: 1%;
+    z-index: 1;
+}
+.head h5
+{
+    font-family: arial;
+    font-size: 20px;
+    color: brown;
+}
+.product div{
+    width: 300px;
+    height: 350px;
+    background-color: EEF1DA;
+    margin-left: 80px;
+    position: relative;
+    left: 70px; top: 150px;
+    border-radius: 15px;
+    border-color: 1px solid chocolate;
+}
+.product div img
+{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.product div span
+{
+    text-decoration: line-through;
+    font-family: cambria;
+    /* margin-left: 12px; */
+    color: rgb(73, 73, 73);
+    position: relative;
+     right: 10px; bottom: 10px;
+    
+}
+.product div data
+{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: cambria;
+    position:relative;
+    right: 60px; top: 10px;
+    margin-top: 10px;
+}
+.product div p
+{
+    font-family: arial;
+    color: Cambria;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.product div h6{
+    font-size: 15px;
+    font-family: arial;
+}
+.product div button
+{
+    width: 90px;
+    height: 33px;
+    background-color: rgb(136, 57, 0);
+    color: white;
+    z-index: 1;
+    /* display: inline; */
+
+    position: absolute;
+    left: 60px;
+    display: inline;
+}
+    
+.product div .btn
+{
+    width: 90px;
+    height: 33px;
+    background-color: rgb(136, 57, 0);
+    color: white;
+    z-index: 1;
+    /* display: inline; */
+
+    position: absolute;
+    left: 160px;
+    display: inline;
+}
+
+#two
+{
+    position:absolute;
+    top: 165%;
+    z-index: 1;
+}
+
+#three
+{
+    position:absolute;
+    top: 225%;
+  
+}
+
+.four
+{
+    position: relative;
+    bottom: 650px;
+}
+
+.five
+{
+    position: absolute;
+    top: 370px; margin-top: 20px;
+}
+
+
+/* about section */
+#about
+{
+    width: 220vb;
+    height: 2000px;
+    position: relative;
+    top: 600px;
+    background-color:rgb(231, 224, 210);
+    text-align: center;
+
+}
+
+#about h1
+{
+    color: rgb(84, 35, 0);
+    font-size: 30px; 
+    position: relative;
+    right: 50px; top: 30px;
+}
+
+#about  span
+{
+    color: rgb(195, 88, 11);
+    font-size: 30px;
+}
+.hr
+{
+    position: relative;
+    top: 50px;
+    border: 1px solid;
+}
+#about img
+{
+   position: relative;
+   right: 320px; top: 200px;
+}
+#about h2
+{
+    font-size: 21px;
+    text-decoration: wavy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+    left: 20%; bottom: 60px;
+    
+}
+
+#about p
+{
+    font-size: 15px;
+    color: rgb(71, 30, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    text-align: start;
+    position: relative;
+    left: 700px; bottom: 45px;
+}
+
+#about button
+{
+    width: 100px;   
+    height: 35px;
+    background-color: transparent;
+    color: rgb(87, 36, 0);
+    border: 1px solid rgb(82, 35, 1);
+    font-family: Lucida Bright;
+    position: relative;
+    left: 40px; bottom: 30px;
+}
+#about button:hover
+{
+    background-color: rgb(70, 29, 0);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    
+}   
+#abt2 img
+ {
+    position: absolute;
+    left: 700px; top: -50px;
+ }
+ #abt2 h2
+ {
+    position: absolute;
+    left: 110px; bottom: 120px;
+ }
+#abt2 p
+{
+    position: relative;
+    left: 110px; top: 40px;
+
+}
+#abt2 button{
+    position: absolute;
+    left: 110px; top: 190px;
+}
+
+.abt3
+{
+    position: relative;
+    top: 300px;
+}
+
+.abt3 h2
+{
+    margin-right: 100px;
+}
+
+
+#abt4 img
+{
+    position: relative;
+    left: 250px; top: 254px;
+}
+
+#abt4 h2
+{
+    position: relative;
+    left: -300px; top: -20px;
+}
+
+#abt4 p
+{
+    position: relative;
+    left: 128px; top:5px;
+}
+
+#abt4 button
+{
+    position: relative;
+    left: -530px; top: 10px;
+}
+
+/* Review section */
+.review
+{
+    width: 100%;
+    height: 110rem;;
+    background-color: A0C878;
+    text-align: center; 
+}
+
+.review h3
+{
+   position: relative;
+   top: 37%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 23px;
+  color: chocolate;
+  text-decoration: underline 1px solid rgb(126 , 57, 1);
+}
+
+.review span
+{
+    color: rgb(75, 31, 0);
+}
+.review h5
+{
+    color: rgb(70, 34, 0);
+    position: relative;
+    top:38%;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.review .hori_content .box
+{
+    width: 280px;
+    height: 280px;
+    background-color:DDEB9D;
+    margin-left: 4% ;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    top: 500px; right: 50px;
+    text-align: start;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family:Sitka Small;
+    border: 1px solid rgb(131, 93, 66);
+}
+
+
+/* Contact section */
+#contact
+{
+   width: 100%;
+   height: 100vh;
+   background-image: url(p10.jpg);
+   background-size: cover;
+   position: relative;
+   top: 20px;
+
+}
+.form
+{
+   
+   background-color: black;
+   width: 350px;
+   height: 450px;
+   position: absolute;
+   left:20%; top: 80px;
+   padding-top: 50px;
+   opacity: 0.7;
+   border-radius: 10px  ;
+}
+.form p
+{
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+     position: absolute;
+     left:200px;
+}
+.form label
+{
+    color: white;
+    position: relative;
+    bottom:50px;
+    left: 100px;
+    font-size: 25px;
+}
+.form span
+{
+    position: relative;
+    top: 50px;
+    right: 100px;
+    color: white;
+    
+}
+input
+{
+margin-top: 20px;
+width: 210px;
+height: 35px;
+margin-top: 30px;
+border-bottom: 2px solid rgb(255, 255, 255);
+border-top-color: transparent;
+border-left-color: transparent;
+border-right-color: transparent;
+background-color: transparent;
+color: white;
+
+}
+input[type=text]
+{
+    position: relative;
+    right: 62px;
+}
+.form logo img
+{
+   margin-top: 55px;
+   margin-left: 5px;
+}
+
+
+input[type=button]
+{
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 50px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 2px white;
+    transition-duration: 0.25s;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: cambria;
+}
+input[type=button]:hover
+{
+    background-color: transparent;
+    color: white;
+    box-shadow: 1px 1px 1px 1px transparent;
+    border: 1px solid white;
+}
+
+/* Payment section */
+#payment
+{
+    width: 100%;
+    height: 100vh;
+    background-color: A0C878;
+}
+#payment h3{
+    position: relative;
+    top: 10px; color: A0C878;
+    font-size: 30px;
+    background-color:  DDEB9D;
+    width: 100%; height: 50px;
+    padding-left: 45%;
+    line-height: 45px;
+
+}
+#payment #payment-sec
+{
+    position: relative;
+    top: 50px; left:300px;
+    text-align: start;
+    width: 800px; height: 500px;
+    background-color: beige;
+    
+}
+#payment #payment-sec .left label
+{
+    position: relative;
+    top:15px; right: 20px;
+    
+}
+#payment #payment-sec .left
+{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+#payment #payment-sec input
+{
+    border: 1px solid rgb(168, 168, 168);
+    color: rgb(61, 61, 61);
+    padding-left: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
+#payment #payment-sec input[type=text]
+{
+    position: relative;
+    left: 70px;
+}
+#payment #payment-sec input[type=email]
+{
+    position: relative;
+    left: 70px;
+}
+#payment #payment-sec input[type=number]
+{
+    position: relative;
+    left: 70px;
+}
+
+#payment #payment-sec .right
+{
+    position: absolute;
+    top: 10px; left: 200px;
+}
+
+#payment #payment-sec .right label
+{
+    position: relative;
+    top: 12px;
+}
+
+#payment #payment-sec button
+{
+    width: 600px;
+    height: 45px;
+    background-color: A0C878;
+    position: relative;
+    right: 90px; bottom: 50px;
+    color: white;
+    font-size: 15px;
+}
